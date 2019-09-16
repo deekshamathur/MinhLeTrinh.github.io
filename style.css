@@ -1,0 +1,22 @@
+* { 
+ font-size:  25px; 
+}
+li.red {
+	color: 
+}
+li.blue{
+	color: blue;
+}
+li.green{
+	color: green;
+}
+/* h1{
+    color: red;
+ }*/
+.red {
+	background-color: rgba(54,255,0,10);
+	opacity: 0.25;
+}
+/*img {
+	float: left;
+}*/
