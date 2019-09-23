@@ -18,19 +18,25 @@
 		div.gallery img {
 			width: 100%;
 			height: auto;
+			transition-duration: 1s;
 		}
 
 		div.desc {
 			padding: 15px;
 			text-align: center;
 		}
-
-
-	}
-</style>
+		div.gallery {
+			transition-property: transform;
+			transition-duration: 0.5s;
+			transition-timing-function: ease-in;
+		}
+		img:hover {
+			transform: scale(8);
+		}
+	</style>
 </head>
 <body>
-	<p>Đồ Nhậu</p>
+	<center>Đồ Nhậu</center>
 
 	<div class="gallery">
 		<a target="_blank" href="7up-revive-isotonic-drink-325ml - Copy.jpg ">
