@@ -1,0 +1,45 @@
+@import './module/header.css';
+@import './module/menu.css';
+@import './module/footer.css';
+@import './module/global.css';
+
+body {
+	background-color: #6B8E23;
+}
+
+#p {
+  font-family: "Times New Roman", Times, serif;
+}
+#header {
+	display: flex;
+	margin-left: 205px;
+}
+#button {
+	margin: 0 auto;
+}
+#logo{
+	font-family: 'Stoke', serif;
+}
+#contact {
+	margin-right: 205px;
+}
+#image1 {
+	width: 372;
+	height: 247;
+}
+#image2 {
+	width: 372;
+	height: 247;
+}
+#image3 {
+	width: 372;
+	height: 247;
+}
+#image4 {
+	width: 372;
+	height: 247;
+}
+#carouselExampleControls {
+	width: 70%;
+	margin: 0 auto;
+}
