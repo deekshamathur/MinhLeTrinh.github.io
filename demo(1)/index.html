@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<title>Shopping cart demo</title>
+	<link rel="shortcut icon" href="http://spyrestudios.com/favicon.ico">
+	<link rel="icon" href="http://spyrestudios.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+</head>
+<body>
+    <div id="website">
+    	<header id="title">
+    		<h1>Garden House</h1>
+    	</header>
+    	<div id="page">
+    		<table id="shopping cart">
+    			<thead>
+    				<tr>
+    					<th id="1st">ảnh</th>
+    					<th id="2nd">số lượng</th>
+    					<th id="3rd">sản phẩm</th>
+    					<th id="4th">tổng số tiền</th>
+    					<th id="5th">&nbsp;</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<tr id="items">
+    					<td><img src="images/IMG_7252.JPG" class="thumb"></td>
+    					<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+    					<td>Hoa đồng tiển đỏ</td>
+    					<td>550.000đ</td>
+    					<td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+    				</tr>
+    				<tr id="items">
+    					<td><img src="images/IMG_7255.JPG" class="thumb"></td>
+    					<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+    					<td>Hoa cúc vàng</td>
+    					<td>400.000đ</td>
+    					<td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+    				</tr>
+    				<tr id="items">
+    					<td><img src="images/IMG_7261.JPG" class="thumb"></td>
+    					<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+    					<td>Hoa cúc </td>
+    					<td>350.000đ</td>
+    					<td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+    				</tr>
+    				<tr id="items">
+    					<td><img src="images/IMG_E7238.JPG" class="thumb"></td>
+    					<td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+    					<td>Hoa cúc đỏ</td>
+    					<td>250.000đ</td>
+    					<td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+    				</tr>
+    				<tr class="extracosts">
+    					<td class="light">Tiền ship, thuế</td>
+    					<td colspan="2" class="light"></td>
+    					<td>35.000đ</td>
+    					<td>&nbsp;</td>
+    				</tr>
+    				<tr class="totalprice">
+    					<td class="light">Total:</td>
+    					<td colspan="2">&nbsp;</td>
+    					<td colspan="2"><span class="thick">1.585.000đ</span></td>
+    				</tr>
+    				<tr class="checkoutrow">
+    					<td colspan="5" class="checkout"><button id="submitbtn">Thanh toán</button>
+    					</td>
+    				</tr>
+    			</tbody>
+    		</div>
+    	</table>
+    </div>
+</div>
+</body>
+</html>
