@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Garden House</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.lightbox.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700,900" rel="stylesheet">
+</head>
+<body id= "page-top">
+
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><span>Garden</span>House</a>
+            </div>
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="page-scroll" href="#home">Trang chủ</a></li>
+                    <li><a class="page-scroll" href="#about.html">Giới thiệu</a></li>
+                    <li><a class="page-scroll" href="#products.html">Sản phẩm  </a></li>
+                    <li><a class="page-scroll" href="#cart.html">Giỏ hàng</a></li>
+                    <li><a class="page-scroll" href="#blog.html">Blog</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="carts" class="carts">
+       <div id="website">
+        <header id="title">
+            <h1>Garden House</h1>
+        </header>
+        <div id="page">
+            <table id="shopping cart">
+                <thead>
+                    <tr>
+                        <th id="1st">ảnh</th>
+                        <th id="2nd">số lượng</th>
+                        <th id="3rd">sản phẩm</th>
+                        <th id="4th">tổng số tiền</th>
+                        <th id="5th">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="items">
+                        <td><img src="images/cay 5.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Hoa đồng tiển đỏ</td>
+                        <td>550.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr id="items">
+                        <td><img src="images/flower 1.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Hoa tím</td>
+                        <td>250.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr id="items">
+                        <td><img src="images/flower 3.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Hoa cúc </td>
+                        <td>300.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr id="items">
+                        <td><img src="images/flower 4.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Hoa cúc đỏ</td>
+                        <td>400.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr id="items">
+                        <td><img src="images/cay 3.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Cây bàng</td>
+                        <td>750.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr id="items">
+                        <td><img src="images/flower 2.jpg" class="thumb"></td>
+                        <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+                        <td>Hoa đồng tiền</td>
+                        <td>400.000đ</td>
+                        <td><span class="remove"><img src="images/trash.png" alt="X"></span></td>
+                    </tr>
+                    <tr class="extracosts">
+                        <td class="light">Tiền ship</td>
+                        <td colspan="2" class="light"></td>
+                        <td>35.000đ</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr class="totalprice">
+                        <td class="light">Total:</td>
+                        <td colspan="2">&nbsp;</td>
+                        <td colspan="2"><span class="thick">1.585.000đ</span></td>
+                    </tr>
+                    <tr class="checkoutrow">
+                        <td colspan="5" class="checkout"><button id="submitbtn">Thanh toán</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </div>
+        </table>
+    </div>
+</div>
+    </section>
+<section id="contact" class="contact bwt-90">
+      <div class="container text-center">
+        <h1 class="title">Liên hệ</h1>
+        <div class="row">
+          <div class="col-md-6 bwt-offset-top-20">
+            <input type="text" value="Họ tên*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Họ tên*';}">
+          </div>
+          <div class="col-md-6 bwt-offset-top-20">
+            <input type="text" value="Số điện thoại*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Số điện thoại*';}">
+          </div>
+          <div class="col-md-6 bwt-offset-top-20">
+            <input type="text" value="Địa chỉ Email*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Địa chỉ Email*';}">
+          </div>
+          <div class="col-md-6 bwt-offset-top-20">
+            <input type="text" value="Chủ đề*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Chủ đề*';}">
+          </div>
+          <div class="col-md-12 bwt-offset-top-20">
+            <textarea cols="77" rows="6" value=" " onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Viết tin nhắn*';}">Viết tin nhắn*</textarea>
+          </div>
+          <div class="col-md-12 bwt-offset-top-20">
+            <input type="submit" class="btn btn-primary btn-lg" value="Gửi tin nhắn">
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
