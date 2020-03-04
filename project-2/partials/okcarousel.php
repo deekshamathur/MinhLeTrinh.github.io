@@ -8,22 +8,22 @@
     <div class="carousel-item">
       <img src="images/cay 1.jpg" alt="cay 1" width="1349" height="600">
       <div class="carousel-caption">
-        <h3 class="text-uppercase">Làm đẹp khu vườn của bạn</h3>
-        <p class="text-capitalize">Cung cấp hạt giống, cây trồng</p>
+        <h3 class="text-uppercase"><font size="45">Làm đẹp khu vườn của bạn</font></h3>
+        <p class="text-capitalize" style="color: #f6c23a"><font size="20">Cung cấp hạt giống, cây trồng</font></p>
       </div>
     </div>
     <div class="carousel-item active">
       <img src="images/cay 2.jpg" alt="cay 2" width="1349" height="600">
       <div class="carousel-caption">
-        <h3 class="text-uppercase">Làm đẹp khu vườn của bạn</h3>
-        <p class="text-capitalize">Hướng dẫn trồng và chăm sóc cây</p>
+        <h3 class="text-uppercase"><font size="45">Làm đẹp khu vườn của bạn</font></h3>
+        <p class="text-capitalize" style="color: #f6c23a"><font size="20">Hướng dẫn trồng và chăm sóc cây</font></p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="images/pot 2.jpg" alt="pot 2" width="1349" height="600">
        <div class="carousel-caption">
-         <h3 class="text-uppercase">Làm đẹp khu vườn của bạn</h3>
-         <p class="text-capitalize">Sử dụng 100% chất hữu cơ</p>
+         <h3 class="text-uppercase"><font size="45">Làm đẹp khu vườn của bạn</font></h3>
+         <p class="text-capitalize" style="color: #f6c23a"><font size="20">Sử dụng 100% chất hữu cơ</font></p>
       </div>
     </div>
   </div>

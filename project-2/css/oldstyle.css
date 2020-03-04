@@ -323,8 +323,9 @@ a:focus {
 iframe {
   display: block;
 }
-
-
+table td, .table th {
+    vertical-align: middle;
+  }
 /* GENERAL * -------------------------- */
 
 body{
@@ -417,7 +418,9 @@ textarea{
   padding: 15px;
   border:1px solid #ccc;
 }
-
+.table td, .table th {
+    vertical-align: middle;
+  }
 .btn {
   border-radius: 2px;
 }
