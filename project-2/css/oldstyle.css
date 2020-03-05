@@ -2780,8 +2780,8 @@ textarea{
 	overflow: hidden;
 }
 
-.contact {
-	background:#f2f2f2;
+#contact {
+	background: linear-gradient(45deg, #318CCA 0, rgb(85, 147, 29) 100%);
 }
 .contact .bwt-offset-top-20 {
 	margin-top:20px;

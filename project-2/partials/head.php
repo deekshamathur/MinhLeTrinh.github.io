@@ -8,7 +8,7 @@
  <link rel="stylesheet" type="text/css" href="css/oldstyle.css"> 
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#50654D">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(45deg, #318CCA 0, rgb(85, 147, 29) 100%)">
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

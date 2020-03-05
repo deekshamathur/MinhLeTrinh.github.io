@@ -1,6 +1,6 @@
 <section id="contact" class="contact bwt-90">
   <div class="container text-center">
-    <h1 class="title">Liên hệ</h1>
+    <h1 class=" title text-white">Liên hệ</h1>
     <div class="row">
       <div class="col-md-6 bwt-offset-top-20">
         <input type="text" value="Họ tên*" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Họ tên*';}">
