@@ -6,7 +6,7 @@
                 <h1 style="color: #89AB0C" class="text-uppercase mt-4 mb-4">Giỏ hàng</h1>
             </header>
             <div id="page">
-                <table class="table table-bordered" style="background-color: #CCCCCC">  
+                <table class="table table-bordered" style="background-color: #D3D3D3">  
                     <thead>
                         <tr>
                             <th id="1st"  class="text-center text-uppercase">ảnh</th>
