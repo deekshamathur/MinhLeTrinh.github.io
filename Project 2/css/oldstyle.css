@@ -2720,17 +2720,7 @@ textarea{
 
 
 
-.recipes {
-	background:url(../images/tree.png) no-repeat center;
-	background-size:100%;
-	color:#fff;
-} 
-.recipes .bwt-offset-top-20 {
-	margin-top:20px;
-}
-.recipes p {
-	color:#fff;
-}
+
 
 
 
@@ -2773,12 +2763,7 @@ textarea{
 
 
 
-.google-maps {
-	position: relative;
-	padding-bottom:30%;
-	height: 0;
-	overflow: hidden;
-}
+
 
 #contact {
 	background: linear-gradient(45deg, #318CCA 0, rgb(85, 147, 29) 100%);
@@ -2823,21 +2808,7 @@ textarea{
 	border-radius: 0px;
 	margin:0 5px;
 }
-.facebook{
-	background:#006699;
-}
-.twitter{
-	background:#52a5e9;
-}
-.google{
-	background:#d62221;
-}
-.linked{
-	background:#006699;
-}
-.youtube{
-	background:#ee1c1b;
-}
+
 .bwt-footer .con {
 	margin-top:25px;
 	font-size:16px;
