@@ -1,3 +1,0 @@
-
-Dir -filter *.html | Rename-Item -NewName { [io.path]::ChangeExtension($_.name, "php") }
-Dir | Rename-Item -NewName { [io.path]::ChangeExtension($_.name, "doc") }
