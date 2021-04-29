@@ -2781,7 +2781,7 @@ textarea{
 }
 
 #contact {
-	background: linear-gradient(45deg, #318CCA 0, rgb(85, 147, 29) 100%);
+	background: rgb(201,148,227);
 }
 .contact .bwt-offset-top-20 {
 	margin-top:20px;
